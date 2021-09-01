@@ -1,5 +1,5 @@
 module "sqs" {
-  source  = "git@github.com:Orangestack-com/templates-domainservices-terraform-modules-org.git//eks-os-observability?ref=main"
+  source  = "terraform-aws-modules/sqs/aws"
 
   name = var.name
   visibility_timeout = var.visibility_timeout
